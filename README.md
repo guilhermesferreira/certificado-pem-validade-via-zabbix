@@ -76,5 +76,21 @@
   Configuração do Painel no Grafana:
   ![](/Imagens/dash-grafana.png)  
   
+    ```bash
+  Mode= Text  
+  Goup= /.*/
+  Host= SRV_HOST
+  Item= Item_validade
+  ```
 
+
+
+## Autores
+
+- [guilhermesferreira](https://github.com/guilhermesferreira)
+- [alisson-moura](https://github.com/alisson-moura)
+
+ 
+ 
+ 
  
