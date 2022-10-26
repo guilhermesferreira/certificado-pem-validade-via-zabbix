@@ -10,26 +10,26 @@
   - Deenvolvido uma chave personalizada para a monitoria.
   - Desenvolvido também um script .JS, para transfomarmos os dados brutos, em dados suportados pelo zabbix.
   
- # Dependências:
+# Dependências:
   - É necessario um Zabbix Server e um Zabbix-Agent(Ativo) para a monitoria.
   - Uma depêndencia 
   - É necessario o download os binarios do OpenSSL. ([download](https://gnuwin32.sourceforge.net/packages/openssl.htm))
  
- # Alertas:
+# Alertas:
  Validade do Certificado no Grafana:
  ![](/Imagens/validade_grafana.png)
  
  Trigger no Zabbix - Aviso de Vencimento:
  ![](/Imagens/trigger.png)
  
-  # Certificado:
+# Certificado:
  Exemplo de certificado a ser monitorado:
   
  ![](/Imagens/certificados1.png)
  ![](/Imagens/Certificado.png)
 
 
-  # "Passo a Passo - Template"
+# "Passo a Passo - Template"
   
   - Crie um Template para aplicar a varios host se necessario:
   ![](/Imagens/Template.png) 
@@ -43,7 +43,7 @@ system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA
  
  A Variavel `{$CAMINHO_CERT_PEM}` é uma macro, com o caminho do certificado a ser validado.
 
-  # "Passo a Passo - Zabbix-Agent"
+# "Passo a Passo - Zabbix-Agent"
 
 - Configuração no Zabbix-Agent:
   Dentro do arquivo de config Zabbix-Agent (c$\zabbix\conf\zabbix_agentd.conf), é necessário ativar duas chaves:
@@ -51,7 +51,8 @@ system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA
   EnableRemoteCommands=1
   LogRemoteCommands=1
   ```
-   # "Passo a Passo - Trigers"
+  
+# "Passo a Passo - Trigers"
   - Trigger de alerta:
     Para que o Zabbix alerte sobre a inconsistência no item, precisamos criar uma Trigger
   ![](/Imagens/trigger-criando.png)
