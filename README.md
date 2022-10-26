@@ -34,18 +34,18 @@
   - Crie um Template para aplicar a varios host se necessario:
   ![](/Imagens/Template.png) 
   
-  - A chave que utilizamos foi a seguinte:
-```bash
-system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA]
-```
+   - A chave que utilizamos foi a seguinte:
+ ```bash
+  system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA]
+ ```
 
- A variavel `{$CAMINHO_BIN_SSL}` é uma macro com o caminho do servidor, onde encontramos os binarios do OpenSSL. No caso utilizamos o `\openssl\bin\openssl.exe`.
+  A variavel `{$CAMINHO_BIN_SSL}` é uma macro com o caminho do servidor, onde encontramos os binarios do OpenSSL. No caso utilizamos o `\openssl\bin\openssl.exe`.
  
- A Variavel `{$CAMINHO_CERT_PEM}` é uma macro, com o caminho do certificado a ser validado.
+  A Variavel `{$CAMINHO_CERT_PEM}` é uma macro, com o caminho do certificado a ser validado.
 
 # "Passo a Passo - Zabbix-Agent"
 
-- Configuração no Zabbix-Agent:
+ - Configuração no Zabbix-Agent:
   Dentro do arquivo de config Zabbix-Agent (c$\zabbix\conf\zabbix_agentd.conf), é necessário ativar duas chaves:
   ```bash
   EnableRemoteCommands=1
