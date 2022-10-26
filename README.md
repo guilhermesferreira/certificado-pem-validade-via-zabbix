@@ -47,7 +47,7 @@
   
   - Em Pré-processamento, precisaremos criar dois passos:
   
-| Parâmetro   | Tipo       | Descrição                           |
+| Nome   | Parâmetros       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `api_key` | `string` | **Obrigatório**. A chave da sua API |
   
