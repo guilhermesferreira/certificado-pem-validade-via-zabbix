@@ -50,6 +50,8 @@
 | Nome   | Parâmetro 1       | Parâmetro 2                           |
 | :---------- | :--------- | :---------------------------------- |
 | `Substituir` | `notAfter` | Em branco |
+| `JavaScript` | [script]() | Em branco |
+
   
 
 # "Passo a Passo - Zabbix-Agent"
