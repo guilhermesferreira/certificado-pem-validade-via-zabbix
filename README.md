@@ -29,9 +29,11 @@
  ![](/Imagens/Certificado.png)
 
 
-# "Passo a Passo - Template"
+# "Passo a Passo - Template/Item"
   
-  - Crie um Template para aplicar a varios host se necessario:
+  - Crie um Template para aplicar a varios host se necessario.
+
+  - Criaremos um item dentro do template, conforme abaixo:
   ![](/Imagens/Template.png) 
   
    - A chave que utilizamos foi a seguinte:
@@ -42,6 +44,14 @@
   A variavel `{$CAMINHO_BIN_SSL}` é uma macro com o caminho do servidor, onde encontramos os binarios do OpenSSL. No caso utilizamos o `\openssl\bin\openssl.exe`.
  
   A Variavel `{$CAMINHO_CERT_PEM}` é uma macro, com o caminho do certificado a ser validado.
+  
+  - Em Pré-processamento, precisaremos criar dois passos:
+  
+| Nome   | Parâmetro                                             |
+| :---------- | :--------- | :---------------------------------- |
+| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+  
+  
 
 # "Passo a Passo - Zabbix-Agent"
 
