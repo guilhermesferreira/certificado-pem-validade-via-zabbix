@@ -72,5 +72,9 @@
     ```bash
     date() >= last(/Template/system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA])
     ```
+# "Passo a Passo - Grafana"
+  Configuração do Painel no Grafana:
+  ![](/Imagens/dash-grafana.png)  
+  
 
  
