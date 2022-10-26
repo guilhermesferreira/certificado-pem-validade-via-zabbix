@@ -50,7 +50,7 @@
 | Nome   | Parâmetro 1     | Parâmetro 2|
 | :---------- | :--------- | :----------|
 | `Substituir` | `notAfter` | Em branco |
-| `JavaScript` | [script]() | Em branco |
+| `JavaScript` | [Download do Script]() | Em branco |
 
   
 
