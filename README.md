@@ -76,14 +76,12 @@
   Configuração do Painel no Grafana:
   ![](/Imagens/dash-grafana.png)  
   
-    ```bash
+  ```bash
   Mode= Text  
   Goup= /.*/
   Host= SRV_HOST
   Item= Item_validade
   ```
-
-
 
 ## Autores
 
