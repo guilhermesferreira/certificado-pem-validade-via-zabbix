@@ -2,6 +2,7 @@
 
 # Funcionalidade:
   Monitoramento de arquivo-certificado com Zabbix-Agent e Grafana. 
+  Gere alertas quando o arquivo expirar, ou estiver proximo de um parâmetro definido.
  
 # Especificações:
   - Certificados do tipo .PEM (Mas como utilizamos o OpenSSL, provavelmente funcione para os certificados suportados por ele ... Com alguns ajustes )
@@ -14,7 +15,10 @@
   - Uma depêndencia 
   - É necessario o download os binarios do OpenSSL. ([download](https://gnuwin32.sourceforge.net/packages/openssl.htm))
  
- 
  Exemplo de certificado a ser monitorado:
  
   ![](/Imagens/certificados1.png)
+
+
+Exemplo de dashboard no grafana:
+ ![](/Imagens/validade_grafana.png)
