@@ -15,11 +15,15 @@
   - Uma depêndencia 
   - É necessario o download os binarios do OpenSSL. ([download](https://gnuwin32.sourceforge.net/packages/openssl.htm))
  
- # Demonstração:
+ # Alertas:
  Demonstração da Validade no Grafana:
  ![](/Imagens/validade_grafana.png)
  
+ Trigger no Zabbix:
+ ![](/Imagens/trigger.png)
  
+ 
+  # Certificado:
  Exemplo de certificado a ser monitorado:
   
  ![](/Imagens/certificados1.png)
