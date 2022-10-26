@@ -16,12 +16,11 @@
   - É necessario o download os binarios do OpenSSL. ([download](https://gnuwin32.sourceforge.net/packages/openssl.htm))
  
  # Alertas:
- Demonstração da Validade no Grafana:
+ Validade do Certificado no Grafana:
  ![](/Imagens/validade_grafana.png)
  
- Trigger no Zabbix:
+ Trigger no Zabbix - Aviso de Vencimento:
  ![](/Imagens/trigger.png)
- 
  
   # Certificado:
  Exemplo de certificado a ser monitorado:
