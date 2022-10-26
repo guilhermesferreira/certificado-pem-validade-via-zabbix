@@ -47,9 +47,9 @@
   
   - Em Pré-processamento, precisaremos criar dois passos:
   
-| Nome   | Parâmetros       | Descrição                           |
+| Nome   | Parâmetro 1       | Parâmetro 2                           |
 | :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+| `Substituir` | `notAfter` | Em branco |
   
 
 # "Passo a Passo - Zabbix-Agent"
