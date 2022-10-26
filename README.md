@@ -50,7 +50,13 @@ system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA
   LogRemoteCommands=1
   ```
   
+  - Trigger de alerta:
+    Para que o Zabbix alerte sobre a inconsistência no item, precisamos criar uma Trigger
+  ![](/Imagens/trigger-criando.png)
   
-  
+    A expressão utilizada na trigger é a seguinte:
+    ```bash
+    date() >= last(/Template/system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA])
+    ```
 
  
