@@ -34,6 +34,10 @@
   - Crie um Template para aplicar a varios host se necessario:
   ![](/Imagens/Template.png) 
   
+  - A chave que utilizamos foi a seguinte:
+```bash
+system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA]
+```
   
 
 
