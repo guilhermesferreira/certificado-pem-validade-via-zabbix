@@ -29,7 +29,12 @@
  ![](/Imagens/Certificado.png)
 
 
-  #  - "Passo a Passo"
+  # "Passo a Passo"
+  
+  - Crie um Template para aplicar a varios host se necessario:
+  ![](/Imagens/Template.png) 
+  
+  
 
 
  
