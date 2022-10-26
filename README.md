@@ -5,7 +5,7 @@
   Gere alertas quando o arquivo expirar, ou estiver proximo de um parâmetro definido.
  
 # Especificações:
-  - Certificados do tipo .PEM (Mas como utilizamos o OpenSSL, provavelmente funcione para os certificados suportados por ele ... Com alguns ajustes )
+  - Certificados do tipo .PEM (Como utilizamos o OpenSSL, provavelmente funcione para os certificados suportados por ele ... Com alguns ajustes )
   - Dsesenvolvido um template zabbix para facilitar a implementação.
   - Deenvolvido uma chave personalizada para a monitoria.
   - Desenvolvido também um script .JS, para transfomarmos os dados brutos, em dados suportados pelo zabbix.
