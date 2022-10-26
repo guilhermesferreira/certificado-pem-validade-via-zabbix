@@ -12,7 +12,7 @@
  # Dependências:
   - É necessario um Zabbix Server e um Zabbix-Agent(Ativo) para a monitoria.
   - Uma depêndencia 
-  - É necessario o download os binarios do OpenSSL. Faça o download <a href="https://gnuwin32.sourceforge.net/packages/openssl.htm"Aqui</a>
+  - É necessario o download os binarios do OpenSSL. Faça o download [aqui](https://gnuwin32.sourceforge.net/packages/openssl.htm)
  
  
  Exemplo de certificado a ser monitorado:
