@@ -47,8 +47,8 @@
   
   - Em Pré-processamento, precisaremos criar dois passos:
   
-| Nome   | Parâmetro 1       | Parâmetro 2                           |
-| :---------- | :--------- | :---------------------------------- |
+| Nome   | Parâmetro 1     | Parâmetro 2|
+| :---------- | :--------- | :----------|
 | `Substituir` | `notAfter` | Em branco |
 | `JavaScript` | [script]() | Em branco |
 
