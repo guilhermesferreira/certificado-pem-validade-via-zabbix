@@ -43,6 +43,8 @@ system.run[{$CAMINHO_BIN_SSL} x509 -in {$CAMINHO_CERT_PEM} -dates | findstr notA
  
  A Variavel `{$CAMINHO_CERT_PEM}` é uma macro, com o caminho do certificado a ser validado.
 
+
+
 - Configuração no Zabbix-Agent:
   Dentro do arquivo de config Zabbix-Agent (c$\zabbix\conf\zabbix_agentd.conf), é necessário ativar duas chaves:
   ```bash
