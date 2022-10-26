@@ -20,9 +20,10 @@
  ![](/Imagens/validade_grafana.png)
  
  
-  Exemplo de certificado a ser monitorado:
-  ![](/Imagens/certificados1.png)
-  ![](/Imagens/Certificado.png)
+ Exemplo de certificado a ser monitorado:
+  
+ ![](/Imagens/certificados1.png)
+ ![](/Imagens/Certificado.png)
 
 
 
